@@ -189,13 +189,21 @@ local data = UIImageJPEGRepresentation(image, 0.8);
 print("data.length=", data:length());
 ```
 
+Lua code debug
+------
 Any way to debug my Lua code?   
 Ofcourse, you can use the powerfull ZeroBraneStudio to debug. [see more detail](https://github.com/alibaba/wax/tree/master/examples/LuaCodeDebug).
+
+Watch OS 
+------
+Can Wax run on watch OS?
+Thanks to the cross platform characteristics of Lua, Wax can run on watch OS certainly. see tools/WaxWatchFramework and examples/WaxWatchExample
+
 
 Use with cocoapods
 ----------
 see examples/TestWaxPod demo.  
-* add `pod 'wax', :git=>'git@github.com:alibaba/wax.git', :tag=>'1.0.0'` to your podfile. (tag in your needs)  
+* add `pod 'wax', :git=>'git@github.com:alibaba/wax.git', :tag=>'1.1.0'` to your podfile. (tag in your needs)  
 * then you can run lua code.
 
 ``` lua
